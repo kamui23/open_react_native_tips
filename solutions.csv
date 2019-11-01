@@ -1,0 +1,2 @@
+react-native start error,echo fs.inotify.max_user_watches=582222 | sudo tee -a /etc/sysctl.conf && sudo sysctl -p
+native base does not show icon,'I solved my issue adding on /app/build.gradle apply from: "../../node_modules/react-native-vector-icons/fonts.gradle" and then I uninstall the app from my phone and reinstall again.' -> reference on https://github.com/oblador/react-native-vector-icons/issues/661#issuecomment-378546936
