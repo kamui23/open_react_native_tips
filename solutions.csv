@@ -3,3 +3,6 @@
 "nativebase does not show icon","I solved my issue adding on /app/build.gradle apply from: ../../node_modules/react-native-vector-icons/fonts.gradle and then I uninstall the app from my phone and reinstall again. -> reference on https://github.com/oblador/react-native-vector-icons/issues/661#issuecomment-378546936"
 "Could not get BatchedBridge, make sure your bundle is packaged properly -> this error has been description here https://github.com/facebook/react-native/issues/9336", "https://stackoverflow.com/a/38874952"
 "error listen EADDRINUSE :::8081","sudo lsof -nP -iTCP:8081 -sTCP:LISTEN then run ps aux | grep <PID> to check services, at last, use command kill <PID>"
+"react-native log-android error /bin/sh: 1: adb: not found","in project folder run cmd export ANDROID_HOME=/home/{username}/Android/Sdk export PATH=$ANDROID_HOME/platform-tools:$PATH export PATH=$ANDROID_HOME/tools:$PATH reference to https://stackoverflow.com/a/53755300"
+"Uncaught TypeError: (0 , _index2.default) is not a function"."must export default in action refer to https://stackoverflow.com/a/37609559"
+"
